@@ -1,0 +1,63 @@
+{
+    "lang": {
+        "de": "DE",
+        "en": "EN"
+    },
+    "submenu": {
+        "headers": {
+            "domain": "Domain",
+            "bgp": "BGP",
+            "admintools": "Admintools",
+            "support": "Support",
+            "general": "General"
+        },
+        "domain": {
+            "overview": "Overview",
+            "cacheClear": "Cache clear",
+            "cdnBrowser": "CDN Browser",
+            "errorPages": "Custom error pages",
+            "dns": "DNS",
+            "ipFilter": "IP Filter",
+            "loadbalancing": "Loadbalancing",
+            "maintenance": "Maintenance page",
+            "tags": "My Tags",
+            "permissions": "Permissions",
+            "redirects": "Redirects",
+            "settings": "Settings",
+            "statistics": "Statistics",
+            "sslManagement": "SSL Management",
+            "waf": "WAF"
+        },
+        "bgp": {
+            "networkManagement": "Network Management",
+            "statistics": "Statistics"
+        },
+        "admintools": {
+            "addAccount": "Add Account",
+            "userManagement": "User Management"
+        },
+        "support": {
+            "notificationCenter": "Notification Center",
+            "nameServers": "Nameservers",
+            "contact": "Contact"
+        },
+        "general": {
+            "imprint": "Imprint",
+            "privacyNotice": "Privacy Notice",
+            "conditions": "Conditions of Use",
+            "blog": "Blog"
+        }
+    },
+    "overview": {
+        "header": "Overview"
+    },
+    "cacheClear": {
+        "header": "Cache clear"
+    },
+    "cdnBrowser": {
+        "header": "CDN Browser"
+    },
+    "errorPages": {
+        "header": "Custom error pages" 
+    }
+}
