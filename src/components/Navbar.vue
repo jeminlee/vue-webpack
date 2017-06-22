@@ -7,8 +7,6 @@
 
     <div class="top-bar" id="navbar-menu">
         <div id="logo">
-            220x50
-            <!-- <a href="#"><img src="../assets/logo.png"/></a> -->
         </div>
         <div class="top-bar-left">
             <ul class="dropdown menu" data-dropdown-menu="dropdown-menu" role="menubar" data-options="disableHover:true; clickOpen:true">
@@ -47,9 +45,6 @@
                     <ul class="submenu menu first-sub" role="menu">
                         <li role="menuitem">
                             <a href="#0">Overview</a>
-                        </li>
-                        <li role="menuitem">
-                            <a href="#0">Documents</a>
                         </li>
                     </ul>
                 </li>

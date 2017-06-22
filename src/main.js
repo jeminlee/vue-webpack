@@ -18,17 +18,17 @@ var locales = {
 
 Vue.config.lang = 'de'
 
-Object.keys(locales).forEach(function (lang) {
-  Vue.locale(lang, locales[lang])
+Object.keys(locales).forEach(function(lang) {
+    Vue.locale(lang, locales[lang])
 })
 
 $(document).ready(function($) {
-  $(document).foundation();
+    $(document).foundation();
 });
 
 const router = new Router({
-   routes,
-   mode: 'history',
+    routes,
+    mode: 'history',
 });
 
 const app = new Vue({
