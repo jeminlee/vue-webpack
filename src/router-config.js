@@ -1,6 +1,6 @@
 import App from './App.vue'
 import Overview from './components/Overview.vue'
-import IpFilters from './components/IpFilters.vue'
+import IpFilter from './components/IpFilter.vue'
 import Settings from './components/Settings.vue'
 
 const User = {
@@ -17,8 +17,8 @@ export var routes = [{
         component: Overview,
     },
     {
-        path: '/ipfilters',
-        component: IpFilters
+        path: '/ipfilter',
+        component: IpFilter
     },
     {
         path: '/:domain',

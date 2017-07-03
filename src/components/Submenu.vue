@@ -5,7 +5,7 @@
             <span class="submenuHeader">{{ $t('submenu.headers.domain') }}</span>
             <ul class="nested vertical menu">
                 <li><router-link to="/" class="submenuLinks">{{ $t('submenu.domain.overview') }}</router-link></li>
-                <li><router-link to="/ipfilters" class="submenuLinks">{{ $t('submenu.domain.ipFilter') }}</router-link></li>
+                <li><router-link to="/ipfilter" class="submenuLinks">{{ $t('submenu.domain.ipFilter') }}</router-link></li>
             </ul>
         </li>
 
