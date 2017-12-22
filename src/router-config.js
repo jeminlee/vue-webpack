@@ -5,10 +5,10 @@ import Settings from './components/Settings.vue'
 
 const User = {
     template: `
-    <div class="user">
-      <h2>Domain {{ $route.params.domain }}</h2>
-      <router-view></router-view>
-    </div>
+        <div class="user">
+            <h2>Domain {{ $route.params.domain }}</h2>
+            <router-view></router-view>
+        </div>
   `
 }
 
