@@ -1,20 +1,20 @@
 <template>
-<div class="small-2 columns" id="submenu">
-    <ul class="vertical menu">
-        <li>
-            <span class="submenuHeader">{{ $t('submenu.headers.domain') }}</span>
-            <ul class="nested vertical menu">
-                <li><router-link to="/" class="submenuLinks">{{ $t('submenu.domain.overview') }}</router-link></li>
-                <li><router-link to="/ipfilter" class="submenuLinks">{{ $t('submenu.domain.ipFilter') }}</router-link></li>
-            </ul>
-        </li>
+    <div class="small-2 columns" id="submenu">
+        <ul class="vertical menu">
+            <li>
+                <span class="submenuHeader">{{ $t('submenu.headers.domain') }}</span>
+                <ul class="nested vertical menu">
+                    <li><router-link to="/" class="submenuLinks">{{ $t('submenu.domain.overview') }}</router-link></li>
+                    <li><router-link to="/ipfilter" class="submenuLinks">{{ $t('submenu.domain.ipFilter') }}</router-link></li>
+                </ul>
+            </li>
 
-    </ul>
-    <div class="copyright">
-        <span>&copy; Jemin Lee</span><br/>
-        <span></span>
+        </ul>
+        <div class="copyright">
+            <span>&copy; Jemin Lee</span><br/>
+            <span></span>
+        </div>
     </div>
-</div>
 </template>
 
 <script>
